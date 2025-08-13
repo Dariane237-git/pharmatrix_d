@@ -203,6 +203,7 @@ CREATE TABLE coupon_medicament (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+insert into users (first_name, last_name, phone, location, email, password, role,photo) values ('John', 'Doe', '0123456789', '123 Main St', 'kengnejosy74@gmail.com', 'password123', 'admin','null');
 
 -- =================================================================================================
 -- FIN DU SCRIPT DE CRÉATION
